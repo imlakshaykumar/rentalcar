@@ -2,7 +2,7 @@ import Image from "next/image"
 import logo from '../../public/images/logo.webp'
 import Link from "next/link"
 
-export const Navbar = () => {
+export default function Navbar() {
     return (
         <div className="nav-div flex items-center lg:max-w-[1500px] w-full mx-auto justify-between border-b-[#f8f8f8] py-7 absolute z-[9999] left-0 top-0 right-0">
             <div className="logo-div">

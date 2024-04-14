@@ -4,7 +4,7 @@ import contactSVG from '../../public/contact.svg'
 import contactRing from '../../public/contactRing.svg'
 import mail from '../../public/mail.svg'
 
-export const Footer = () => {
+export default function Footer() {
     return (
         <div className="footer-div relative">
             <div className="book-contact-div bg-[#222] flex items-center justify-center gap-14 h-[11rem]">
