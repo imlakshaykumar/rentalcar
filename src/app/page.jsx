@@ -1,12 +1,10 @@
-import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
       <main>
-        <div>Home</div>
+        <div className="contact-heading-div flex flex-col h-[25rem] items-start justify-center">
+          <h2 className=" text-4xl font-bold mb-1 w-full">Home</h2>
+        </div>
       </main>
     </>
   );
