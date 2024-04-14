@@ -7,14 +7,17 @@ import mail from '../../public/mail.svg'
 export default function Footer() {
     return (
         <div className="footer-div relative">
-            <div className="book-contact-div bg-[#222] flex items-center justify-center gap-14 h-[11rem]">
-                <h2 className='text-white text-3xl font-bold'>
-                    Book a car by getting in touch with us
-                </h2>
-                <span className='text-[#ff4d30] flex items-center gap-3 text-3xl font-bold'>
-                    <Image src={ contactSVG } alt="contact svg" />
-                    <p>(123) 456-7869</p>
-                </span>
+            <div className="book-contact-div relative">
+                <div className='overlay-div inset-0 bg-[#2d2d2d] h-full w-full absolute right-0 top-0 bottom-0 left-0 opacity-90'></div>
+                <div className="content flex items-center justify-center gap-14 h-[11rem] relative">
+                    <h2 className='text-white text-3xl font-bold'>
+                        Book a car by getting in touch with us
+                    </h2>
+                    <span className='text-[#ff4d30] flex items-center gap-3 text-3xl font-bold'>
+                        <Image src={ contactSVG } alt="contact svg" />
+                        <p>(123) 456-7869</p>
+                    </span>
+                </div>
             </div>
             <div className="footer-links-div grid grid-cols-4 lg:max-w-[1500px] w-full mx-auto gap-[5rem] py-[6rem]">
                 <div className="info-contact-div">

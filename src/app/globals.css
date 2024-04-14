@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.book-contact-div {
+  background-image: url('../../public//images/footerOverlay.png');
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
