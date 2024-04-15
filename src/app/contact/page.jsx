@@ -19,9 +19,9 @@ export default function Contact() {
             </div>
             <div className="contact-form relative">
 
-                <div className='overlay-div inset-0 h-full w-full absolute right-0 top-0 bottom-0 left-0 opacity-90'></div>
+                <div className='overlay-div inset-0 h-full w-full absolute right-0 top-0 bottom-0 left-0 opacity-90 z-[-999]'></div>
 
-                <div className="content flex items-start justify-center gap-14 pt-[6rem] pb-[10rem] px-5">
+                <div className="content flex items-start justify-center gap-14 pt-[6rem] pb-[10rem] px-5 z-[999]">
                     <div className="content-info w-1/2 flex flex-col gap-3">
                         <div className="info flex flex-col gap-5">
                             <h2 className='text-5xl capitalize mb-3 font-bold'>Need additional information?</h2>
