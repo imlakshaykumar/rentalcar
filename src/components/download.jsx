@@ -5,7 +5,7 @@ import appstore from '../../public/appstore.svg'
 
 export default function Download() {
     return (
-        <div className="download-div w-full h-auto bg-[f8f8f8]">
+        <div className="download-div w-full h-auto bg-[#f8f8f8]">
             <div className="download-content max-w-[1500px] mx-auto w-full">
                 <div className="content w-1/2 flex flex-col gap-10 py-[6rem]">
                     <p className="text-5xl font-bold">Download our app to get most out of it</p>

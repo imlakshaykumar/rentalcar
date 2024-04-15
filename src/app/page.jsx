@@ -1,6 +1,7 @@
 import AboutComponent from "@/components/about";
 import BestDeals from "@/components/bestDeals";
 import Download from "@/components/download";
+import FAQ from "@/components/FAQ";
 import TestimonialComponent from "@/components/testimonials";
 
 
@@ -12,10 +13,11 @@ export default function Home() {
           <h2 className=" text-4xl font-bold mb-1 w-full">Home</h2>
         </div>
       </div>
-      <BestDeals />
 
       <AboutComponent />
+      <BestDeals />
       <TestimonialComponent />
+      <FAQ />
       <Download />
 
     </div>

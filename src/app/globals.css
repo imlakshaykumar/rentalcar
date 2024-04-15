@@ -20,6 +20,13 @@
   background-position: top;
 }
 
+.faqOverlay {
+  background-image: url('../../public/images/home/faq.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 70%;
+}
+
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
