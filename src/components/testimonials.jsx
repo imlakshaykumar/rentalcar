@@ -7,7 +7,7 @@ import dquote from '../../public/dquote.svg'
 
 export default function TestimonialComponent() {
     return (
-        <div>
+        <div className="max-w-[1500px] mx-auto">
             <div className="content flex flex-col gap-2 items-center justify-center text-center w-[750px] mx-auto">
                 <p className="text-lg font-bold">Reviewed by People</p>
                 <h2 className="text-5xl font-bold mb-5">Client's Testimonials</h2>

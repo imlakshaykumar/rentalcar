@@ -7,7 +7,7 @@ import about3 from '../../public/images/about/aboutpage3.png'
 
 export default function AboutComponent() {
     return (
-        <div className="mt-[3rem] mb-[10rem]">
+        <div className="mt-[3rem] mb-[10rem] max-w-[1500px] mx-auto">
             <div className="head-div flex flex-col gap-3 items-center justify-center mb-[5rem]">
                 <p className="text-2xl font-semibold">Plan your trip now</p>
                 <h2 className="text-5xl font-bold">Quick & easy car rental</h2>

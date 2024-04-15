@@ -7,7 +7,7 @@ import AboutComponent from "@/components/about"
 
 export default function About() {
     return (
-        <>
+        <div className="max-w-[1500px] mx-auto">
 
             <div className="contact-heading-div flex flex-col h-[25rem] items-start justify-center">
                 <h2 className=" text-4xl font-bold mb-1 w-full">About</h2>
@@ -48,6 +48,6 @@ export default function About() {
                 </div>
             </div>
             <AboutComponent />
-        </>
+        </div>
     )
 }

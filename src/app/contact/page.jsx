@@ -7,7 +7,7 @@ import message from '../../../public/message.svg'
 
 export default function Contact() {
     return (
-        <>
+        <div className="max-w-[1500px] mx-auto">
             <div className="contact-heading-div relative">
 
                 {/* <div className="hero-overlay absolute inset-0 w-full h-full right-0 top-0 left-0 bottom-0 opacity-90"></div> */ }
@@ -94,6 +94,6 @@ export default function Contact() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }

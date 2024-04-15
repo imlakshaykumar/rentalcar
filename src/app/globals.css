@@ -13,6 +13,13 @@
   background-position: center;
 }
 
+.download-div {
+  background-image: url('../../public/images/bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
