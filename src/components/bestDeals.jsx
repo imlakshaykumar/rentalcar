@@ -38,7 +38,7 @@ export default function BestDeals() {
                             </div>
                         </div>
                         <div className="deal flex items-center gap-5">
-                            <Image src={ bestDeal2 } alt="deal3" />
+                            <Image src={ bestDeal3 } alt="deal3" />
                             <div className="info flex flex-col gap-2">
                                 <p className="text-2xl font-bold">No Hidden Charges</p>
                                 <p className="text-gray-500">Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
