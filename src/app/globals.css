@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 
+.hero-overlay {
+  background-image: url('../../public/images/home/hero-bg-overlay.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
 .book-contact-div {
-  background-image: url('../../public//images/footerOverlay.png');
+  background-image: url('../../public/images/footerOverlay.png');
 }
 
 .contact-form {
