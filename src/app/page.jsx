@@ -1,5 +1,6 @@
 import AboutComponent from "@/components/about";
 import BestDeals from "@/components/bestDeals";
+import CarModelHome from "@/components/carModels";
 import Download from "@/components/download";
 import FAQ from "@/components/FAQ";
 import TestimonialComponent from "@/components/testimonials";
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
 
       <AboutComponent />
+      <CarModelHome />
       <BestDeals />
       <TestimonialComponent />
       <FAQ />
